@@ -1,10 +1,6 @@
-package org.example;
+package org.nicug;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
