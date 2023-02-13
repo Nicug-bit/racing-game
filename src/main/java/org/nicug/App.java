@@ -1,7 +1,7 @@
 package org.nicug;
 
 public class App
-{new
+{
     public static void main( String[] args )
     {
        Car carReference = new Car ();
@@ -11,6 +11,19 @@ public class App
        carReference.damaged = true;
        carReference.doorCount = 1;
        carReference.color = "Red";
+
+        Engine engine1 = new Engine();
+        engine1.manufacturer = "Ferreri";
+        engine1.capacity = 3000;
+
+
+        carReference.engine = engine1;
+
+        System.out.println("Engine1 capacity: " + engine1.capacity);
+        System.out.println("Car engine capacity: " + carReference.engine.capacity);
+
+
+
         // concatenation
         System.out.println("Properties of car " + carReference.name);
         System.out.println("Max speed: " + carReference.maxSpeed);
@@ -56,6 +69,8 @@ public class App
 
         car2 = null;
         System.out.println(carReference.name);
+
+        
 
     }
 }
