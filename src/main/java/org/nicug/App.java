@@ -1,5 +1,7 @@
 package org.nicug;
 
+import javax.sound.midi.Soundbank;
+
 public class App
 {
     public static void main( String[] args )
@@ -15,6 +17,8 @@ public class App
         Engine engine1 = new Engine();
         engine1.manufacturer = "Ferreri";
         engine1.capacity = 3000;
+
+     System.out.println(carReference);
 
 
         carReference.engine = engine1;
