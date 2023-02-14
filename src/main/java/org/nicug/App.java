@@ -15,7 +15,7 @@ public class App
        carReference.color = "Red";
 
         Engine engine1 = new Engine();
-        engine1.manufacturer = "Ferreri";
+        engine1.manufacturer = "Ferrari";
         engine1.capacity = 3000;
 
      System.out.println(carReference);
@@ -42,8 +42,6 @@ public class App
         System.out.println("Damaged: " + carReference.damaged);
         System.out.println("Door Count: " + carReference.doorCount);
         System.out.println("Color: " + carReference.color);
-
-
         Car car2 = new Car();
         car2.name = "Renault";
         car2.fuelLevel = 70;
