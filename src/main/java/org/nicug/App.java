@@ -1,6 +1,7 @@
 package org.nicug;
 
 import javax.sound.midi.Soundbank;
+import javax.swing.plaf.metal.MetalComboBoxUI;
 
 public class App
 {
@@ -66,11 +67,12 @@ public class App
 
         double distanceForCar2 = car2.accelerate(100,1);
 
+       System.out.println("Engine manufacturer before repair: "+ carReference.engine.manufacturer);
+       Mechanic mechanic = new Mechanic();
+       mechanic.repair(carReference);
+       System.out.println("Engine manufacturer after repair: "+ carReference.engine.manufacturer);
 
-       System.out.println("Engine name before repair: "+ carReference.engine.manufacturer);
-        Mechanic mechanic = new Mechanic();
-        mechanic.repair(carReference);
-       System.out.println("Engine name after repair: "+ carReference.engine.manufacturer);
+
 
 
 //        System.out.println("Initial name for car1: " + carReference.name);
@@ -94,7 +96,7 @@ public class App
 //        car2 = null;
 //        System.out.println(carReference.name);
 
-
+        
 
     }
 }

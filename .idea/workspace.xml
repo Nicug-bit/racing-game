@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6535665f-72fd-47d4-90d5-f6256b3963eb" name="Changes" comment="invoking methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nicug/Mechanic.java" afterDir="false" />
+    <list default="true" id="6535665f-72fd-47d4-90d5-f6256b3963eb" name="Changes" comment="added mechanic and method receiving object param">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/nicug/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nicug/App.java" afterDir="false" />
     </list>
@@ -108,42 +107,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676319402208</updated>
     </task>
-    <task id="LOCAL-00008" summary="declarin methods">
-      <created>1676383441638</created>
+    <task id="LOCAL-00008" summary="added mechanic and method receiving object param">
+      <created>1676580919777</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1676383441639</updated>
+      <updated>1676580919777</updated>
     </task>
-    <task id="LOCAL-00009" summary="declarin methods">
-      <created>1676383456876</created>
+    <task id="LOCAL-00009" summary="added mechanic and method receiving object param">
+      <created>1676580926358</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1676383456876</updated>
+      <updated>1676580926358</updated>
     </task>
-    <task id="LOCAL-00010" summary="declarin methods">
-      <created>1676383469423</created>
+    <task id="LOCAL-00010" summary="added mechanic and method receiving object param">
+      <created>1676580939484</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1676383469423</updated>
+      <updated>1676580939484</updated>
     </task>
-    <task id="LOCAL-00011" summary="invoking methods">
-      <created>1676576883723</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1676576883723</updated>
-    </task>
-    <task id="LOCAL-00012" summary="invoking methods">
-      <created>1676576906974</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1676576906974</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,8 +148,7 @@
     <MESSAGE value="update engine" />
     <MESSAGE value="engine car2" />
     <MESSAGE value="carid" />
-    <MESSAGE value="declarin methods" />
-    <MESSAGE value="invoking methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="invoking methods" />
+    <MESSAGE value="added mechanic and method receiving object param" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mechanic and method receiving object param" />
   </component>
 </project>
