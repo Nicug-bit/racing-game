@@ -1,6 +1,7 @@
 package org.nicug;
 
 import javax.sound.midi.Soundbank;
+import javax.swing.plaf.metal.MetalComboBoxUI;
 
 public class App
 {
@@ -10,7 +11,7 @@ public class App
        carReference.name = "Ferrari";
        carReference.maxSpeed = 300;
        carReference.totalTraveledDistance = 0;
-       carReference.damaged = true;
+       carReference.damaged = false;
        carReference.doorCount = 1;
        carReference.color = "Red";
 
@@ -45,6 +46,8 @@ public class App
         Car car2 = new Car();
         car2.name = "Renault";
         car2.fuelLevel = 70;
+        car2.maxSpeed = 300;
+        car2.mileage = 10;
         car2.totalTraveledDistance = 100;
 
         car2.engine = new Engine();
@@ -62,15 +65,18 @@ public class App
         System.out.println("Door Count: " + car2.doorCount);
         System.out.println("Color: " + car2.color);
 
+        System.out.println("********************************************************************");
+
         double distanceForCar1 = carReference.accelerate(60,1);
 
-        double distanceForCar2 = car2.accelerate(100,1);
+        double distanceForCar2 = car2.accelerate(130,1);
+
+       System.out.println("Engine manufacturer before repair: "+ carReference.engine.manufacturer);
+       Mechanic mechanic = new Mechanic();
+       mechanic.repair(carReference);
+       System.out.println("Engine manufacturer after repair: "+ carReference.engine.manufacturer);
 
 
-       System.out.println("Engine name before repair: "+ carReference.engine.manufacturer);
-        Mechanic mechanic = new Mechanic();
-        mechanic.repair(carReference);
-       System.out.println("Engine name after repair: "+ carReference.engine.manufacturer);
 
 
 //        System.out.println("Initial name for car1: " + carReference.name);
@@ -94,7 +100,7 @@ public class App
 //        car2 = null;
 //        System.out.println(carReference.name);
 
-
+        
 
     }
 }
