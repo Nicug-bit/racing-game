@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6535665f-72fd-47d4-90d5-f6256b3963eb" name="Changes" comment="added mechanic and method receiving object param">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nicug/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nicug/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nicug/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nicug/Vehicle.java" afterDir="false" />
-    </list>
+    <list default="true" id="6535665f-72fd-47d4-90d5-f6256b3963eb" name="Changes" comment="studied conditional statem" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,6 +160,7 @@
     <MESSAGE value="engine car2" />
     <MESSAGE value="carid" />
     <MESSAGE value="added mechanic and method receiving object param" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mechanic and method receiving object param" />
+    <MESSAGE value="studied conditional statem" />
+    <option name="LAST_COMMIT_MESSAGE" value="studied conditional statem" />
   </component>
 </project>
